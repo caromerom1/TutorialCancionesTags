@@ -57,6 +57,7 @@ class Ventana_Cancion(QWidget):
             etiqueta.setFont(QFont("Times",weight=QFont.Bold))
             etiqueta.setAlignment(QtCore.Qt.AlignCenter)
             layout_datos.addWidget(etiqueta,i,0)
+            print(etiqueta.sizeHint())
 
         #Creación de los campos editables
 
