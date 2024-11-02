@@ -1,5 +1,5 @@
 # .coveragerc to control coverage.py
-[run]
+[coverage:run]
 relative_files = True
 branch = True
 source = src/
@@ -10,7 +10,7 @@ source =
     src/
     */site-packages/
 
-[report]
+[coverage:report]
 # Regexes for lines to exclude from consideration
 exclude_lines =
     # Have to re-enable the standard pragma
